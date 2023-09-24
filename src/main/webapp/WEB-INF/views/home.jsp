@@ -1,14 +1,12 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<title>Home</title>
+    <title>index</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
+    <h2>hello spring framework</h2>
+    <a href="/board/save">글작성</a>
+    <a href="/board/">글목록</a>
+    <a href="/board/paging">페이징 목록</a>
 </body>
 </html>

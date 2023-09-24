@@ -4,3 +4,5 @@
 1. jdk 8.0
 2. springframework 5.3.20
 3. elipse mars2
+4. MySQL 8.0.27
+5. apache tomcat 8.5.93
