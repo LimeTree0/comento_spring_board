@@ -3,5 +3,4 @@
 # 개발 환경
 1. jdk 8.0
 2. springframework 5.3.20
-3. intelliJ 2023.2
-4. tomcat 9.0.76
+3. elipse mars2
