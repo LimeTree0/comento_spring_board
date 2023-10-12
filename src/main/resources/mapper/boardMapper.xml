@@ -7,4 +7,20 @@
         insert into post(title, author, content)
         values(#{title}, #{author}, #{content})
     </insert>
+    
+    <select id="findAll" resultType="board">
+        select * from post;
+    </select>
+    
+    <select id="findById" parameterType="Long" resultType="board">
+        select * from post where id=#{id};
+    </select>
+    
+    <update id="update" parameterType="board">
+    	update post set title=#{title}, content=#{content} where id=#{id};
+    </update>
+    
+    <delete id="delete" parameterType="Long">
+    	delete from post where id=#{id};
+    </delete>
 </mapper>
